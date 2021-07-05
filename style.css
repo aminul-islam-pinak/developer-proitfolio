@@ -30,3 +30,26 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+section{
+    display: flex;
+}
+.second-half-width{
+    width: 50%;
+    padding: 5%;
+}
+.second-half-width img{
+    width: 80%;
+}
+.link-buttom-two{
+    text-decoration: none;
+    background-image: linear-gradient(red,yellow);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800px;
+}
+.second-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
